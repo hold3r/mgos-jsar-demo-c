@@ -22,23 +22,10 @@ filesystem:
   - fs
 
 config_schema:
-  - ["debug.level", 3]
+  - ["debug.level", 2]
   - ["wifi.ap.enable", false]
   - ["wifi.sta.enable", false]
   - ["bt.enable", false]
-
-  - ["i2c", "o", {title: "I2C settings"}]
-  - ["i2c.unit_no", "i", 0, {title: "Which hardware unit to use, 0 or 1"}]
-  - ["i2c.enable", "b", true, {title: "Enable I2C"}]
-  - ["i2c.freq", "i", 100000, {title: "Clock frequency"}]
-  - ["i2c.debug", "b", false, {title: "Debug I2C bus activity"}]
-  - ["i2c.sda_gpio", "i", 32, {title: "GPIO to use for SDA"}]
-  - ["i2c.scl_gpio", "i", 33, {title: "GPIO to use for SCL"}]
-  - ["i2c1", "i2c", {title: "I2C settings"}]
-  - ["i2c1.unit_no", 1]
-  - ["i2c1.enable", false]
-  - ["i2c1.sda_gpio", 22]
-  - ["i2c1.scl_gpio", 23]
 
 libs:
   - location: https://github.com/hold3r/mgos-jsar

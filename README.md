@@ -1,6 +1,6 @@
 
 
-# A demo C app for mgos-dxlmaster 
+# A demo C app for mgos-jsar 
 
 ## Overview
 
